@@ -1,0 +1,12 @@
+[
+{
+  "modid": "examplemod",
+  "name": "Example Mod",
+  "updateUrl": "",
+  "authorList": ["Dave"],
+  "credits": "Dave and he is a big Coldplay fan",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

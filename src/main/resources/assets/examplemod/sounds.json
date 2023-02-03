@@ -1,0 +1,12 @@
+{
+
+  "sound.enable":{
+    "category": "master",
+    "sounds":[
+      {
+        "name":"examplemod:enable","stream":false
+      }
+    ]
+  }
+
+}
