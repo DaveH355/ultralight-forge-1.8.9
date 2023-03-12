@@ -24,11 +24,10 @@ public class UltraLight {
         UltralightPlatform platform = UltralightPlatform.instance();
         platform.setConfig(
                 new UltralightConfig()
-                        .resourcePath(ResourceManager.resourceDir.getAbsolutePath())
                         .fontHinting(FontHinting.SMOOTH)
         );
         platform.usePlatformFontLoader();
-        platform.usePlatformFileSystem(ResourceManager.ultraLightDir.getAbsolutePath() + "/");
+        platform.usePlatformFileSystem(ResourceManager.ultraLightDir.getAbsolutePath());
         renderer = UltralightRenderer.create();
     }
 
